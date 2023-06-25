@@ -185,7 +185,7 @@ console.log("Pink Lady Apples:", pinkTons);
 
 // CODE HERE 
 
-// let fujiPounds =
+// let fujiPounds = 
 // let galaPounds =
 // let pinkPounds =
 

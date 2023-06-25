@@ -10,7 +10,8 @@
 */
 
 //CODE HERE
-
+let gitDefinition = "Git is a version control system. Git keeps track of what users make to files, so we will have record of what has been done, also we can revert to a specific versions if we need to"
+console.log(gitDefinition);
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,7 +19,8 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "GitHub is a platform and cloud-based service for software development. Coders can store and manage their code on it"
+console.log(gitHubDefinition);
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -26,7 +28,8 @@
 */
 
 //CODE HERE
-
+let gitInitDefinition = "git init is to create a new Git reposotory"
+console.log(gitInitDefinition);
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +37,8 @@
 */
 
 //CODE HERE
-
+let gitCloneDefinition = "Git clone is used to copy an existing Git repository into a new local directory "
+console.log(gitCloneDefinition);
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -42,7 +46,8 @@
 */
 
 //CODE HERE
-
+let gitStatusDefinition = "The git status command is used to show the status of the git repository"
+console.log(gitStatusDefinition);
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,7 +58,8 @@
 */
 
 //CODE HERE
-
+let gitAddDefinition = "The git add command adds a change in the working directory to the staging area"
+let gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -64,8 +70,8 @@
 */
 
 //CODE HERE
-
-
+let gitCommitDefinition = "The git commit command captures a snapshot of the project's currently staged changes"
+let gitCommitCode = "git commit -m 'initial commit'"
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,3 +79,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = "The git push command is used to upload local repository content to a remote repository"
