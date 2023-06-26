@@ -112,11 +112,9 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-let dailyAverage = 2; // Assuming the daily average is 2 acres
-
 while (acresLeft > 0) {
-  days++;
-  acresLeft -= dailyAverage;
+    days++;
+    acresLeft -= averageDailyAcres;
 }
 console.log(days);
 
@@ -145,7 +143,7 @@ console.log(days);
     values to the new arrays.
 */
 
-// CODE HERE
+// CODE HERE // 
 let fujiTons = fujiAcres.slice();
 let galaTons = galaAcres.slice();
 let pinkTons = pinkAcres.slice();
@@ -183,12 +181,16 @@ console.log("Pink Lady Apples:", pinkTons);
     Hint: there are 2000 pounds in a ton.
 */
 
-// CODE HERE 
+// CODE HERE // FOR THIS PROBLEM, WE CAN USE THE REGULAR "FOR LOOP" TO FIND OUT THE SUM OF TONS FIRST, AND THEN USE THE SUM TO MULTIPLY BY 2000, 
+// BUT IT WILL TAKES LONGER THAN USE THE REDUCE METHOD. WE DID NOT STUDY REDUCE METHOD IN CLASS. I DID NOT KNOW ABOUT THE "REDUCE METHOD" EITHER.
+//BUT I DID SOME RESEARCH ON HOW TO CALCULATE SUM OF THE NUMBERS INSIDE THE ARRAYS, THIS IS THE FASTEST WAY TO FIND OUT THE SUM OF ARRAYS.
 
-// let fujiPounds = 
-// let galaPounds =
-// let pinkPounds =
-
+let fujiPounds = fujiTons.reduce((total,tons)=> total+tons,0)*2000;
+let galaPounds = galaTons.reduce((total,tons)=>total+tons,0)*2000;
+let pinkPounds = pinkTons.reduce((total,tons)=>total+tons,0)*2000;
+console.log(fujiPounds);
+console.log(galaPounds);
+console.log(pinkPounds);
 
 
 
@@ -212,9 +214,12 @@ console.log("Pink Lady Apples:", pinkTons);
 
 // CODE HERE
 
-// let fujiProfit =
-// let galaProfit =
-// let pinkProfit =
+let fujiProfit = fujiPounds * fujiPrice
+let galaProfit = galaPounds * galaPrice
+let pinkProfit = pinkPounds * pinkPrice
+console.log(fujiProfit);
+console.log(galaProfit);
+console.log(pinkProfit);
 
 
 
@@ -232,3 +237,7 @@ console.log("Pink Lady Apples:", pinkTons);
 */
 
 // CODE HERE
+let totalProfit = fujiProfit + galaProfit + pinkProfit
+console.log(totalProfit)
+
+
